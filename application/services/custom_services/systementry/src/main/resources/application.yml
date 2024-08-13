@@ -1,0 +1,42 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_DB_URL}
+server:
+  port: 8082
+
+logging:
+  file:
+    name: logs/javatestapp.log
+    path: javatestapp
+  level:
+    com.geppetto: info
+  pattern:
+    dateformat: "dd-MM-yyyy hh:mm:ss aa"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
